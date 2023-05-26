@@ -1,0 +1,12 @@
+.center {
+    text-align: center;
+}
+li:hover {
+    background-color: rebeccapurple;
+}
+li:active {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+ol , ul {
+    list-style: none;
+}
