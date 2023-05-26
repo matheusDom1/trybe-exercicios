@@ -1,0 +1,29 @@
+div:hover {
+    border: 5px solid black;
+}
+#div1 {
+    background-color: aqua;
+}
+#div2 {
+    background-color: aquamarine;
+}
+#div3 {
+    background-color: black;
+    padding: 10px; 
+    margin-top: 10px;  
+    margin-bottom: 10px; 
+}
+#div4 {
+    background-color: blanchedalmond;
+}
+#div5 {
+    background-color: pink;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(9, 136, 9);
+}
+.italic {
+    font-style: italic;
+}
