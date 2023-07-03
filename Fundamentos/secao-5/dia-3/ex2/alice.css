@@ -1,0 +1,136 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+@media screen and (max-width: 768px) {
+    
+
+    body {
+        background-color: rgb(253, 227, 247);
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(247, 198, 236);
+        border: 1px solid rgb(227, 198, 255);
+    }
+
+    header h1 {
+        font-size:xx-large;
+        color: blueviolet;
+        padding-top: 20px;
+        text-align: center;
+    }
+    header ul {
+        display: none;
+
+    }
+    aside h2{
+        font-size: large;
+    }
+    aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid rgb(227, 198, 255);
+    }
+    .main-content h1 {
+        font-size: large;
+        text-align: center;
+    }
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+    }
+    .main-content p {
+        width: 80%;
+        align-self: center;
+    }
+    footer {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    *{
+        margin: 10px;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        align-items: center;
+        background-color: rgb(247, 198, 236);
+        /* width: 50%; */
+        
+    }
+    header h1 {
+        align-self: center;
+        font-size: xx-large;
+        color: blueviolet;
+    }
+
+    header ul {
+        font-size: x-large;
+    }
+    header li {
+        display: inline;
+        padding-left: 10px;
+    }
+    .main-content {
+        width: 50%;
+        order: -1;
+        text-align: center;
+        /* border: 1px solid black; */
+        margin-left: 25%;
+    }
+    #asideEconteudo {
+        display: flex; 
+        justify-content: space-between;
+               
+    }
+    #asides {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        text-align:start;
+        /* margin-right: 40px; */
+        margin-left: 100px;
+        height: 10%;
+        background-color: rgb(255, 255, 255);
+    }
+    #asides ul {
+        list-style: none;
+    }
+    #asides h2 {
+        text-align: center;
+    }
+    .main-content p {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .main-content h1 {
+        padding: 20px;
+    }
+    body {
+        background-color: rgb(253, 227, 247);
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+    }
+    footer p {
+        font-size: 18px;
+    }
+    footer h3 {
+        font-size: 20px;
+    }
+}
